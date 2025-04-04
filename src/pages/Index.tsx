@@ -12,6 +12,7 @@ import Interests from "@/components/sections/Interests";
 import Resume from "@/components/sections/Resume";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/Footer";
+import ChatBubble from "@/components/ChatBubble";
 
 const Index = () => {
   useEffect(() => {
@@ -35,6 +36,7 @@ const Index = () => {
           <Contact />
         </main>
         <Footer />
+        <ChatBubble />
       </div>
     </ThemeProvider>
   );
